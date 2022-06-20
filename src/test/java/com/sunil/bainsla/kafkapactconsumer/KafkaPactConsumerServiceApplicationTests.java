@@ -31,7 +31,7 @@ public class KafkaPactConsumerServiceApplicationTests {
         PactDslJsonBody body = new PactDslJsonBody();
         body.uuid("id");
         body.stringType("data");
-        body.date("paymentDate");
+        body.stringType("paymentDate");
         body.numberType("amount");
 
         Map<String, Object> metadata = new HashMap<>();

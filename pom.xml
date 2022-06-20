@@ -65,6 +65,7 @@
 			<groupId>au.com.dius</groupId>
 			<artifactId>pact-jvm-provider-maven</artifactId>
 			<version>${pact-version}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 

@@ -8,6 +8,6 @@ import java.util.Date;
 public class Payment {
     String id;
     String data;
-    Date paymentDate;
+    String paymentDate;
     int amount;
 }
