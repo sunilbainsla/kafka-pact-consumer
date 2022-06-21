@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.sunil.bainsla</groupId>
 	<artifactId>kafka-pact-consumer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>kafka-pact-consumer</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>

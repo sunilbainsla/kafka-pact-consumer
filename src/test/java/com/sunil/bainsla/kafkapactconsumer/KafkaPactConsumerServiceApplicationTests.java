@@ -33,6 +33,8 @@ public class KafkaPactConsumerServiceApplicationTests {
         body.stringType("data");
         body.stringType("paymentDate");
         body.numberType("amount");
+        body.stringType("name");
+        body.stringType("accountNumber");
 
         Map<String, Object> metadata = new HashMap<>();
         metadata.put("Content-Type", "application/json");
@@ -51,6 +53,8 @@ public class KafkaPactConsumerServiceApplicationTests {
                 .hasFieldOrProperty("id")
                 .hasFieldOrProperty("data")
                 .hasFieldOrProperty("paymentDate")
-                .hasFieldOrProperty("amount");
+                .hasFieldOrProperty("amount")
+                .hasFieldOrProperty("name")
+                .hasFieldOrProperty("accountNumber");
     }
 }
